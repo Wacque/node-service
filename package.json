@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Wacque/node-service/issues"
   },
-  "homepage": "https://github.com/Wacque/node-service#readme"
+  "homepage": "https://github.com/Wacque/node-service#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "translation-jsapi": "^1.1.2"
+  }
 }
