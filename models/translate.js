@@ -6,9 +6,12 @@ exports.translate = (req, res, next) => {
   }
 
   google.translate(req.query.text).then(result => {
+    console.log(result)
     res.json({
       res: result.result,
       msg: 'success'
     }) // result 的数据结构见下文
   })
 } 
+
+
